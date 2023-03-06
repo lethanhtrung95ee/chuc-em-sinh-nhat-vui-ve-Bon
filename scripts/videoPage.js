@@ -273,7 +273,6 @@ window.onload = function () {
     function openBox() {
         stepClass(step);
         if (step === 4) {
-            fetch('http://example.com/watch-video-initial')
             reveal();
             return;
         }
