@@ -4,7 +4,7 @@ const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: 'Mar 4, 2023',
+  birthdate: 'Mar 23, 2023',
   name: `Bonny (Trương Quế Thanh)`,
   countToChange: 0
 };

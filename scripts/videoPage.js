@@ -1,17 +1,17 @@
-var video = document.getElementById('myVid');
+var video = document.getElementById("myVid");
 
 video.addEventListener("play", function() {
-    gtag('event', 'click', { 'event_category': 'button', 'event_label': 'my-video-play' });
+    gtag('event', 'click', { 'event_category': 'video', 'event_label': 'my-video-play' });
 });
 
 // Add an event listener for the "pause" event
 video.addEventListener("pause", function() {
-    gtag('event', 'click', { 'event_category': 'button', 'event_label': 'my-video-pause' });
+    gtag('event', 'click', { 'event_category': 'video', 'event_label': 'my-video-pause' });
 });
 
 // Add an event listener for the "ended" event
 video.addEventListener("ended", function() {
-    gtag('event', 'click', { 'event_category': 'button', 'event_label': 'my-video-end' });
+    gtag('event', 'click', { 'event_category': 'video', 'event_label': 'my-video-end' });
 });
 window.requestAnimFrame = function () {
     return window.requestAnimationFrame ||
