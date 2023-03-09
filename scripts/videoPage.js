@@ -1,4 +1,4 @@
-const video = document.getElementById('myVid');
+var video = document.getElementById('myVid');
 
 video.addEventListener("play", function() {
     gtag('event', 'click', { 'event_category': 'button', 'event_label': 'my-video-play' });
