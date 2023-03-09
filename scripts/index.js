@@ -18,6 +18,10 @@ function hideEverything() {
 
 hideEverything();
 
+window.onload = function() {
+  gtag('event', 'openPage', { 'event_category': 'openPage', 'event_label': 'openPage' });
+}
+
 const confettiSettings = { target: 'confetti' };
 const confetti = new window.ConfettiGenerator(confettiSettings);
 confetti.render();
